@@ -14,7 +14,7 @@ def predict():
     # if request.method == "POST":
     #     return classify()
 
-# then send a post request to localhost:5000/?img_url=<IMAGE_URL>
+# then send a GET request to localhost:5000/?img_url=<IMAGE_URL>
 # curl https://applorange.herokuapp.com/?img_url=<IMAGE_URL>
 
 if __name__ == "__main__":
