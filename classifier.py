@@ -1,4 +1,3 @@
-import tensorflow as tf
 from tensorflow.keras.models import Sequential, load_model
 from tensorflow.keras.layers import Conv2D, Dense, Dropout, MaxPooling2D, Flatten
 from tensorflow.keras.optimizers import Adam
