@@ -4,15 +4,11 @@ import json
 
 app = Flask (__name__)
 
-@app.route("/")
-@app.route("/classify", methods=["GET"])
+@app.route("/", methods=["GET"])
 def predict():
     url = request.args["img_url"]
 
     return json.dumps(interpret(classify(url)))
-
-    # if request.method == "POST":
-    #     return classify()
 
 # then send a GET request to localhost:5000/?img_url=<IMAGE_URL>
 # curl https://applorange.herokuapp.com/?img_url=<IMAGE_URL>

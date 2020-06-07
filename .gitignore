@@ -2,3 +2,4 @@ venv
 apples-jpg-resized
 oranges-jpg-resized
 readme.md
+__pycache__
