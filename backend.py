@@ -8,7 +8,7 @@ app = Flask (__name__)
 def predict():
     url = request.args["img_url"]
 
-    return "ono"
+    return "onoo"
     # return json.dumps(interpret(classify(url)))
 
 # then send a GET request to localhost:5000/?img_url=<IMAGE_URL>
